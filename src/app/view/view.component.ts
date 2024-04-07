@@ -14,7 +14,7 @@ export class ViewComponent {
   topics:Rss[]=[];
   visibleArr:boolean[]=[false];
 
-  constructor(public RssService:RssService, public dialog:MatDialog,private router: Router) { 
+  constructor( public RssService:RssService, public dialog:MatDialog,private router: Router) { 
     this.RssService.GetAllTopics().subscribe((succ) => {
       this.topics=succ;
       console.log("succ",succ);
