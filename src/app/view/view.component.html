@@ -1,0 +1,23 @@
+<div id="wrap" *ngFor="let item of topics; let i = index"  >
+    <div (click)="visible(i)">
+        {{item.title}}
+    </div>
+   
+    <div *ngIf="visibleArr[i]">
+        <br>
+        <button id="x" (click)="visible(i)">X</button>
+        <div >
+         {{item.body}}
+        </div>
+       
+        <br>
+        <img src="https://www.recruiter.com/newimages/recruiterlogocolor.png" alt="Image Description">
+        <br>
+      
+        <button id="more" (click)="navigate(i)">learn more</button>
+
+    </div>
+</div>
+
+
+ 
