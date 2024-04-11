@@ -1,0 +1,48 @@
+/* Styling for post links */
+.postLink {
+    cursor: pointer;
+    color: #007bff; /* Blue color for link */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+    border: 2px solid;
+    padding: 10px;
+  }
+  
+  .postLink:hover {
+    color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  /* Styling for selected post */
+  .selectedPost {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+    border: 10px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .selectedPost h2 {
+    color: #343a40; /* Dark text color */
+    font-size: 24px;
+  }
+  
+  .selectedPost p {
+    color: #6c757d; /* Medium text color */
+    font-size: 16px;
+  }
+  
+  .selectedPost a {
+    text-decoration: none;
+    color: #007bff; /* Blue color for link */
+    font-weight: bold;
+  }
+  
+  .selectedPost a:hover {
+    color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  
